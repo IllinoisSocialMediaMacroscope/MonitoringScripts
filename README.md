@@ -12,6 +12,8 @@ Oct 13, 2017: The AWS disk space monitoring scripts have been installed on 2 EC2
 
 # check_disk_space.sh
 
+Currently we are using AWS scripts to write to cloudwatch (see News - Oct 13, 2017 above).  but this script could be used in any generic Linux evironment.
+
 This script, in the cron_scripts folder, can be called by cron and will send an email if the results of the du command exceeds a specified level called the "check value".
 
 The check value, email subject line, and email recipients can be specified.
